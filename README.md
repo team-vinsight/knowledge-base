@@ -1,4 +1,4 @@
-# V-Insight Knowledge Base
+# Vinsight Knowledge Base
 
 This repository hosts the Research & Development knowledge base for the **Team V-Insight** project.
 
