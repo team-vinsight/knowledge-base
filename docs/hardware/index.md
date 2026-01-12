@@ -1,9 +1,13 @@
 # Hardware Platforms
 
-Documentation for the hardware components used in our project.
+Overview of the computing and sensor hardware used in the project.
 
-## Platforms
+`{toctree}
+:maxdepth: 1
+:caption: Devices
 
-*   **[Nvidia Jetson](nvidia-jetson.md)**: Primary edge AI computing unit.
-*   **[Raspberry Pi](raspberry-pi.md)**: Auxiliary computing and control.
-*   **[Camera](camera.md)**: Vision sensors and configurations.
+jetson-orin-nx
+raspberry-pi-5
+orbbec-gemini-2l
+dji-mono-camera
+`
