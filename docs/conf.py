@@ -26,7 +26,9 @@ html_theme_options = {
     'navigation_depth': 4,
     'collapse_navigation': False,
     'sticky_navigation': True,
+    'style_nav_header_background': '#1a1a1a', # Darker header
 }
+
 
 html_css_files = [
     'custom.css',
