@@ -1,0 +1,49 @@
+site_name: V-Insight R&D Knowledge Base
+site_url: https://team-vinsight.github.io/knowledge-base/
+site_description: RnD Knowledge Base for Deep Learning-Powered Visual SLAM Project
+repo_url: https://github.com/team-vinsight/knowledge-base
+repo_name: team-vinsight/knowledge-base
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: teal
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Home: index.md
+  - Project Info:
+    - Tech Stack: tech-stack.md
+  - Research:
+    - Literature Review: literature.md
+    - VSLAM Models: vslam/
+  - Hardware: hardware/
+  - Datasets: datasets/
