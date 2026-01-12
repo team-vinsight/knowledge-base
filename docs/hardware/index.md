@@ -1,6 +1,6 @@
 # Hardware Platforms
 
-Overview of the computing and sensor hardware used in the project.
+Overview of the computing units and sensor hardware used in the project.
 
 ```{toctree}
 :maxdepth: 1
