@@ -13,7 +13,10 @@ extensions = [
     'myst_parser',
     'sphinx.ext.autodoc',
     'sphinx.ext.viewcode',
+    'sphinx_rtd_dark_mode',
 ]
+
+default_dark_mode = True
 
 templates_path = ['_templates']
 exclude_patterns = []
