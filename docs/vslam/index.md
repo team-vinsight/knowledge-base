@@ -4,9 +4,9 @@ This section documents the various SLAM algorithms and models we are investigati
 
 ## Directories
 
-*   **[ORB-SLAM3](orb-slam3)**: State-of-the-art sparse visual SLAM.
-*   **[Droid-SLAM](droid-slam)**: Deep learning based dense visual SLAM.
-*   **[Omni-Swarm](omni-swarm)**: Swarm robotics SLAM.
-*   **[DF-VO](df-vo)**: Deep Deep Features Visual Odometry.
-*   **[CUVSLAM](cuvslam)**: CUDA Visual SLAM.
-*   **[Misc](misc)**: Miscellaneous models and experiments.
+*   **[ORB-SLAM3](orb-slam3.md)**: State-of-the-art sparse visual SLAM.
+*   **[Droid-SLAM](droid-slam.md)**: Deep learning based dense visual SLAM.
+*   **[Omni-Swarm](omni-swarm.md)**: Swarm robotics SLAM.
+*   **[DF-VO](df-vo.md)**: Deep Deep Features Visual Odometry.
+*   **[CUVSLAM](cuvslam.md)**: CUDA Visual SLAM.
+*   **[Misc](misc.md)**: Miscellaneous models and experiments.

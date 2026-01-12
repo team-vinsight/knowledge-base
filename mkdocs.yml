@@ -6,6 +6,10 @@ repo_name: team-vinsight/knowledge-base
 
 theme:
   name: material
+  logo: assets/logo.png
+  icon:
+    logo: material/robot
+    repo: fontawesome/brands/github
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -23,9 +27,10 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    - navigation.tabs
+    # - navigation.tabs  <-- Removed to support sidebar layout (Sphinx-like)
     - navigation.sections
     - navigation.expand
+    - navigation.top
     - search.suggest
     - search.highlight
 
@@ -46,4 +51,4 @@ nav:
     - Literature Review: literature.md
     - VSLAM Models: vslam/
   - Hardware: hardware/
-  - Datasets: datasets/
+  - Datasets: datasets.md
