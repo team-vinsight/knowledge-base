@@ -1,6 +1,6 @@
 # Vinsight Knowledge Base
 
-This repository hosts the Research & Development knowledge base for the **Team V-Insight** project.
+This repository hosts the Research & Development knowledge base for the **Team Vinsight** project.
 
 The documentation is built using [MkDocs](https://www.mkdocs.org/) and deployed to GitHub Pages.
 
