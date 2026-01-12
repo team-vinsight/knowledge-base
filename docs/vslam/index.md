@@ -2,7 +2,7 @@
 
 Analysis and resources for various Visual SLAM implementations.
 
-`{toctree}
+```{toctree}
 :maxdepth: 1
 :caption: Models
 
@@ -12,4 +12,4 @@ droid-slam
 omni-swarm
 df-vo
 miscellaneous
-`
+```

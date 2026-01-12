@@ -28,6 +28,10 @@ html_theme_options = {
     'sticky_navigation': True,
 }
 
+html_css_files = [
+    'custom.css',
+]
+
 # MyST Parser configuration
 myst_enable_extensions = [
     "colon_fence",
