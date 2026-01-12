@@ -1,5 +1,7 @@
-Paper - https://arxiv.org/pdf/2103.00933
+# DF-VO
 
-GitHub Repo - https://github.com/Huangying-Zhan/DF-VO
-
-Docs - https://df-vo.readthedocs.io/en/latest/
+## Resources
+*   **Paper**: [DF-VO: Deep Depth and Flow Guided Visual Odometry](https://arxiv.org/abs/2003.02976)
+*   **Repository**: [Huangying-Zhan/DF-VO](https://github.com/Huangying-Zhan/DF-VO)
+*   **Tutorials**:
+    *   *(Add tutorial links)*

@@ -1,6 +1,6 @@
-site_name: V-Insight R&D Knowledge Base
+site_name: Vinsight R&D Knowledge Base
 site_url: https://team-vinsight.github.io/knowledge-base/
-site_description: RnD Knowledge Base for Deep Learning-Powered Visual SLAM Project
+site_description: RnD Knowledge Base for Visual SLAM Project
 repo_url: https://github.com/team-vinsight/knowledge-base
 repo_name: team-vinsight/knowledge-base
 
@@ -9,7 +9,6 @@ theme:
   logo: assets/logo.png
   collapse_navigation: true
   sticky_navigation: true
-
 
 markdown_extensions:
   - admonition
@@ -21,11 +20,19 @@ markdown_extensions:
       custom_checkbox: true
 
 nav:
-  - Home: index.md
-  - Project Info:
-    - Tech Stack: tech-stack.md
-  - Research:
-    - Literature Review: literature.md
-    - VSLAM Models: vslam/
-  - Hardware: hardware/
+  - Introduction: index.md
+  - Fundamentals: fundamentals.md
+  - Tech Stack: tech-stack.md
+  - Hardware Platforms:
+      - Jetson Orin NX: hardware/jetson-orin-nx.md
+      - Raspberry Pi 5: hardware/raspberry-pi-5.md
+      - Orbbec Gemini 2L Camera: hardware/orbbec-gemini-2l.md
+      - DJI Mono Camera: hardware/dji-mono-camera.md
+  - VSLAM Models:
+      - ORB-SLAM3: vslam/orb-slam3.md
+      - cuVSLAM and PyCuVSLAM: vslam/cuvslam.md
+      - Droid SLAM: vslam/droid-slam.md
+      - Omni-Swarm: vslam/omni-swarm.md
+      - DF-VO: vslam/df-vo.md
+      - Miscellaneous: vslam/miscellaneous.md
   - Datasets: datasets.md
