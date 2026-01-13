@@ -2,7 +2,7 @@
 
 This repository hosts the Research & Development knowledge base for the **Team Vinsight** project.
 
-The documentation is built using [MkDocs](https://www.mkdocs.org/) and deployed to GitHub Pages.
+The documentation is built using [Sphinx](https://www.sphinx-doc.org/) and deployed to GitHub Pages.
 
 ## Accessing the Knowledge Base
 
@@ -15,15 +15,16 @@ To run the documentation locally:
 1.  **Install Python** (if not already installed).
 2.  **Install dependencies**:
     ```bash
-    pip install mkdocs-material
+    pip install -r requirements.txt
     ```
-3.  **Run the dev server**:
+3.  **Build the docs**:
     ```bash
-    mkdocs serve
+    sphinx-build -b html docs docs/_build/html
     ```
-4.  Open `http://127.0.0.1:8000/`.
+4.  Open `docs/_build/html/index.html` in your browser.
 
 ## Repository Structure
 
-*   `docs/`: Source files for the documentation site or markdown files.
-*   `mkdocs.yml`: Configuration file for MkDocs.
+*   `docs/`: Source files for the documentation site (reStructuredText and Markdown).
+*   `docs/conf.py`: Configuration file for Sphinx.
+*   `requirements.txt`: Python dependencies for building the documentation.

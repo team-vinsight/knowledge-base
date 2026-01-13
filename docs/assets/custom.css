@@ -5,3 +5,40 @@
     margin: 0 auto;
 }
 
+/* --- Improved RTD Theme Customization --- */
+
+/* Increase maximum content width */
+.wy-nav-content {
+    max-width: 1200px !important;
+}
+
+/* Improve Typography */
+body {
+    font-size: 16px; 
+}
+
+/* Fix table wrapping issues */
+.wy-table-responsive table td, 
+.wy-table-responsive table th {
+    white-space: normal;
+}
+
+/* Smoother borders for code blocks */
+div[class^="highlight"] {
+    border: 1px solid #e1e4e5;
+    border-radius: 4px;
+}
+
+/* Add some spacing to headings */
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Link color adjustment for better visibility in dark mode if needed, 
+   but RTD dark mode extension usually handles this. 
+   Focus on slight hover effects */
+a:hover {
+    text-decoration: underline;
+}
+

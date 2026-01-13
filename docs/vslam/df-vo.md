@@ -1,7 +1,7 @@
 # DF-VO
 
 ## Resources
-*   **Paper**: [DF-VO: Deep Depth and Flow Guided Visual Odometry](https://arxiv.org/abs/2003.02976)
-*   **Repository**: [Huangying-Zhan/DF-VO](https://github.com/Huangying-Zhan/DF-VO)
-*   **Tutorials**:
-    *   *(Add tutorial links)*
+
+### Key Documents
+- **Paper**: [arxiv.org/pdf/2103.04131](https://arxiv.org/pdf/2103.04131)
+- **Repository**: [HKUST-Aerial-Robotics/Omni-swarm](https://github.com/HKUST-Aerial-Robotics/Omni-swarm)
