@@ -1,0 +1,255 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miscellaneous &mdash; V-Insight R&amp;D Knowledge Base  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=eb63d922" />
+      <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/general.css?v=c0a7eb24" />
+      <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/dark.css?v=70edf1c7" />
+
+  
+    <link rel="shortcut icon" href="../_static/logo.png"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
+      <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Datasets" href="../datasets.html" />
+    <link rel="prev" title="DF-VO" href="df-vo.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #1a1a1a" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            V-Insight R&D Knowledge Base
+              <img src="../_static/logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../fundamentals.html">Fundamentals</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../fundamentals.html#robotics-slam">Robotics &amp; SLAM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../fundamentals.html#ros-2-humble">ROS 2 Humble</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../hardware/index.html">Hardware Platforms</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../hardware/jetson-orin-nx.html">Jetson Orin NX</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../hardware/jetson-orin-nx.html#technical-specifications">Technical Specifications</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../hardware/jetson-orin-nx.html#documentation-resources">Documentation &amp; Resources</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../hardware/jetson-orin-nx.html#images">Images</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../hardware/raspberry-pi-5.html">Raspberry Pi 5</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../hardware/raspberry-pi-5.html#technical-specifications">Technical Specifications</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../hardware/raspberry-pi-5.html#documentation-resources">Documentation &amp; Resources</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../hardware/raspberry-pi-5.html#images">Images</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../hardware/orbbec-gemini-2l.html">Orbbec Gemini 2L Camera</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../hardware/orbbec-gemini-2l.html#technical-specifications">Technical Specifications</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../hardware/orbbec-gemini-2l.html#documentation-resources">Documentation &amp; Resources</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../hardware/orbbec-gemini-2l.html#images">Images</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">VSLAM Models</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="orb-slam3.html">ORB-SLAM3</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="orb-slam3.html#resources">Resources</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="orb-slam3.html#key-documents">Key Documents</a></li>
+<li class="toctree-l4"><a class="reference internal" href="orb-slam3.html#tutorials">Tutorials</a></li>
+<li class="toctree-l4"><a class="reference internal" href="orb-slam3.html#research-related-work">Research &amp; Related Work</a></li>
+<li class="toctree-l4"><a class="reference internal" href="orb-slam3.html#video-demonstrations">Video Demonstrations</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="cuvslam.html">cuVSLAM and PyCuVSLAM</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="cuvslam.html#overview">Overview</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cuvslam.html#resources">Resources</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="cuvslam.html#documentation-code">Documentation &amp; Code</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cuvslam.html#tutorials-forums">Tutorials &amp; Forums</a></li>
+<li class="toctree-l4"><a class="reference internal" href="cuvslam.html#video-demonstrations">Video Demonstrations</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="droid-slam.html">Droid SLAM</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="droid-slam.html#resources">Resources</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="droid-slam.html#key-documents">Key Documents</a></li>
+<li class="toctree-l4"><a class="reference internal" href="droid-slam.html#video-demonstrations">Video Demonstrations</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="omni-swarm.html">Omni-Swarm</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="omni-swarm.html#resources">Resources</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="omni-swarm.html#key-documents">Key Documents</a></li>
+<li class="toctree-l4"><a class="reference internal" href="omni-swarm.html#tutorials">Tutorials</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="df-vo.html">DF-VO</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="df-vo.html#resources">Resources</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="df-vo.html#key-documents">Key Documents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Miscellaneous</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#relevant-papers-links">Relevant Papers &amp; Links</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../datasets.html">Datasets</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../datasets.html#visual-slam-datasets">Visual SLAM Datasets</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #1a1a1a" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">V-Insight R&D Knowledge Base</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">VSLAM Models</a></li>
+      <li class="breadcrumb-item active">Miscellaneous</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/vslam/miscellaneous.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="miscellaneous">
+<h1>Miscellaneous<a class="headerlink" href="#miscellaneous" title="Link to this heading"></a></h1>
+<section id="relevant-papers-links">
+<h2>Relevant Papers &amp; Links<a class="headerlink" href="#relevant-papers-links" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>SELM-SLAM3</strong>: <a class="reference external" href="https://www.scitepress.org/Papers/2025/133382/133382.pdf">Deep Learning-Powered Visual SLAM Aimed at Assisting Visually Impaired Navigation</a> - <a class="reference external" href="https://github.com/banafshebamdad/SELM-SLAM3">GitHub</a></p>
+<ul>
+<li><p><strong>Key Tech</strong>: SuperPoint (Feature Extraction), LightGlue (Matcher), ONNX Runtime (C++).</p></li>
+<li><p><strong>Innovation</strong>: An RGB-D SLAM framework extending ORB-SLAM3 by replacing ORB features/matching with deep learning alternatives (SuperPoint/LightGlue). It features a fully C++ inference pipeline using ONNX Runtime, removing Python dependencies, and introduces a new matching strategy for deep features to assist visually impaired navigation.</p></li>
+</ul>
+</li>
+<li><p><strong>SuperPoint-SLAM3</strong>: <a class="reference external" href="https://arxiv.org/pdf/2506.13089">Augmenting ORB-SLAM3 with Deep Features</a></p>
+<ul>
+<li><p><strong>Key Tech</strong>: SuperPoint (Self-supervised detector-descriptor), Adaptive Non-Maximal Suppression (ANMS), NetVLAD (Loop Closure).</p></li>
+<li><p><strong>Innovation</strong>: A drop-in upgrade for ORB-SLAM3 that replaces ORB with SuperPoint and enforces spatially uniform keypoints using ANMS. It also integrates a lightweight NetVLAD place-recognition head for learning-based loop closure, significantly reducing translation and rotation errors on datasets like KITTI and EuRoC.</p></li>
+</ul>
+</li>
+<li><p><strong>Photometric SLAM</strong>: <a class="reference external" href="https://journal.ecust.edu.cn/en/article/id/a8fb466c-cee8-4f9d-a124-7af1aa7eca39">SLAM with Mapping Based on Photometric Information and ORB Features</a></p>
+<ul>
+<li><p><strong>Key Tech</strong>: Photometric error minimization (Direct Method), ORB Features.</p></li>
+<li><p><strong>Innovation</strong>: A hybrid approach that combines direct methods (using photometric information) with feature-based ORB-SLAM. This fusion aims to improve mapping and tracking robustness, particularly in environments where traditional feature extraction might struggle (e.g., low texture).</p></li>
+</ul>
+</li>
+<li><p><strong>Deep-UAV SLAM</strong>: <a class="reference external" href="https://isprs-archives.copernicus.org/articles/XLVIII-1-W5-2025/177/2025/index.html">SuperPoint and SuperGlue enhanced SLAM</a></p>
+<ul>
+<li><p><strong>Key Tech</strong>: SuperPoint (Extraction), SuperGlue (Matching).</p></li>
+<li><p><strong>Innovation</strong>: Specifically targets UAV aerial navigation by upgrading the front-end of ORB-SLAM3 with deep learning features and matchers. It demonstrates higher robustness and accuracy in dynamic outdoor aerial scenarios compared to classical handcrafted features.</p></li>
+</ul>
+</li>
+<li><p><strong>Light-SLAM</strong>: <a class="reference external" href="https://arxiv.org/pdf/2407.02382">Light-SLAM: A Robust Deep-Learning Visual SLAM System Based on LightGlue under Challenging Lighting Conditions</a></p>
+<ul>
+<li><p><strong>Key Tech</strong>: LightGlue (Matching), Deep local feature descriptors.</p></li>
+<li><p><strong>Innovation</strong>: A robust hybrid visual SLAM system (supporting Mono/Stereo/RGB-D) built around the LightGlue network. It is designed to handle challenging lighting conditions (low-light, strong variations) more effectively than traditional or other deep methods, while maintaining real-time performance on GPUs.</p></li>
+</ul>
+</li>
+<li><p><strong>PCR-ORB</strong>: <a class="reference external" href="https://www.researchgate.net/publication/399176409_PCR-ORB_Enhanced_ORB-SLAM3_with_Point_Cloud_Refinement_Using_Deep_Learning-Based_Dynamic_Object_Filtering">PCR-ORB: Enhanced ORB-SLAM3 with Point Cloud Refinement Using Deep Learning-Based Dynamic Object Filtering</a></p>
+<ul>
+<li><p><strong>Key Tech</strong>: YOLOv8 (Semantic Segmentation), Point Cloud Refinement, CUDA acceleration.</p></li>
+<li><p><strong>Innovation</strong>: enhancing ORB-SLAM3 for dynamic environments by integrating YOLOv8 for dynamic object filtering and a multi-stage point cloud refinement process (ground estimation, sky removal, edge filtering). It utilizes CUDA to ensure real-time performance.</p></li>
+</ul>
+</li>
+<li><p><strong>SuperGlue</strong>: <a class="reference external" href="https://arxiv.org/pdf/1911.11763">SuperGlue: Learning Feature Matching with Graph Neural Networks</a> - <a class="reference external" href="https://github.com/magicleap/SuperGluePretrainedNetwork">GitHub</a></p>
+<ul>
+<li><p><strong>Key Tech</strong>: Graph Neural Networks (GNN), Optimal Transport, Attention Mechanisms.</p></li>
+<li><p><strong>Innovation</strong>: A neural network that matches two sets of local features by jointly finding correspondences and rejecting non-matchable points. It learns priors over geometric transformations and regularities of the 3D world, replacing traditional hand-designed matching heuristics.</p></li>
+</ul>
+</li>
+<li><p><strong>LightGlue</strong>: <a class="reference external" href="https://arxiv.org/pdf/2306.13643">LightGlue: Local Feature Matching at Light Speed</a> - <a class="reference external" href="https://github.com/cvg/LightGlue">GitHub</a></p>
+<ul>
+<li><p><strong>Key Tech</strong>: Adaptive Deep Neural Network, Transformer-based architecture.</p></li>
+<li><p><strong>Innovation</strong>: A lightweight and efficient evolution of SuperGlue. It is adaptive to the difficulty of the matching problem (faster inference on easy pairs), easier to train, and more memory/compute efficient, making it ideal for latency-sensitive applications like SLAM.</p></li>
+</ul>
+</li>
+<li><p><strong>SuperPoint</strong>: <a class="reference external" href="https://arxiv.org/pdf/1712.07629">SuperPoint: Self-Supervised Interest Point Detection and Description</a> - <a class="reference external" href="https://github.com/magicleap/SuperPointPretrainedNetwork">GitHub</a></p>
+<ul>
+<li><p><strong>Key Tech</strong>: Fully-convolutional neural network, Homographic Adaptation, Self-supervised learning.</p></li>
+<li><p><strong>Innovation</strong>: A self-supervised framework for training interest point detectors and descriptors that operates on full-sized images in a single forward pass. It introduces “Homographic Adaptation” to boost repeatability and enable cross-domain adaptation (learning from synthetic data to apply to real-world images).</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="df-vo.html" class="btn btn-neutral float-left" title="DF-VO" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../datasets.html" class="btn btn-neutral float-right" title="Datasets" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2026, Team V-Insight.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

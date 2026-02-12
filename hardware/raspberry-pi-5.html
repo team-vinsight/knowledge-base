@@ -1,0 +1,235 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raspberry Pi 5 &mdash; V-Insight R&amp;D Knowledge Base  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=eb63d922" />
+      <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/general.css?v=c0a7eb24" />
+      <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/dark.css?v=70edf1c7" />
+
+  
+    <link rel="shortcut icon" href="../_static/logo.png"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
+      <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Orbbec Gemini 2L Camera" href="orbbec-gemini-2l.html" />
+    <link rel="prev" title="Jetson Orin NX" href="jetson-orin-nx.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #1a1a1a" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            V-Insight R&D Knowledge Base
+              <img src="../_static/logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../fundamentals.html">Fundamentals</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../fundamentals.html#robotics-slam">Robotics &amp; SLAM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../fundamentals.html#ros-2-humble">ROS 2 Humble</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Hardware Platforms</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="jetson-orin-nx.html">Jetson Orin NX</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="jetson-orin-nx.html#technical-specifications">Technical Specifications</a></li>
+<li class="toctree-l3"><a class="reference internal" href="jetson-orin-nx.html#documentation-resources">Documentation &amp; Resources</a></li>
+<li class="toctree-l3"><a class="reference internal" href="jetson-orin-nx.html#images">Images</a></li>
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Raspberry Pi 5</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#technical-specifications">Technical Specifications</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#documentation-resources">Documentation &amp; Resources</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#images">Images</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="orbbec-gemini-2l.html">Orbbec Gemini 2L Camera</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="orbbec-gemini-2l.html#technical-specifications">Technical Specifications</a></li>
+<li class="toctree-l3"><a class="reference internal" href="orbbec-gemini-2l.html#documentation-resources">Documentation &amp; Resources</a></li>
+<li class="toctree-l3"><a class="reference internal" href="orbbec-gemini-2l.html#images">Images</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../vslam/index.html">VSLAM Models</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../vslam/orb-slam3.html">ORB-SLAM3</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../vslam/orb-slam3.html#resources">Resources</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../vslam/orb-slam3.html#key-documents">Key Documents</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../vslam/orb-slam3.html#tutorials">Tutorials</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../vslam/orb-slam3.html#research-related-work">Research &amp; Related Work</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../vslam/orb-slam3.html#video-demonstrations">Video Demonstrations</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../vslam/cuvslam.html">cuVSLAM and PyCuVSLAM</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../vslam/cuvslam.html#overview">Overview</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../vslam/cuvslam.html#resources">Resources</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../vslam/cuvslam.html#documentation-code">Documentation &amp; Code</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../vslam/cuvslam.html#tutorials-forums">Tutorials &amp; Forums</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../vslam/cuvslam.html#video-demonstrations">Video Demonstrations</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../vslam/droid-slam.html">Droid SLAM</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../vslam/droid-slam.html#resources">Resources</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../vslam/droid-slam.html#key-documents">Key Documents</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../vslam/droid-slam.html#video-demonstrations">Video Demonstrations</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../vslam/omni-swarm.html">Omni-Swarm</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../vslam/omni-swarm.html#resources">Resources</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../vslam/omni-swarm.html#key-documents">Key Documents</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../vslam/omni-swarm.html#tutorials">Tutorials</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../vslam/df-vo.html">DF-VO</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../vslam/df-vo.html#resources">Resources</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../vslam/df-vo.html#key-documents">Key Documents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../vslam/miscellaneous.html">Miscellaneous</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../vslam/miscellaneous.html#relevant-papers-links">Relevant Papers &amp; Links</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../datasets.html">Datasets</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../datasets.html#visual-slam-datasets">Visual SLAM Datasets</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #1a1a1a" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">V-Insight R&D Knowledge Base</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Hardware Platforms</a></li>
+      <li class="breadcrumb-item active">Raspberry Pi 5</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/hardware/raspberry-pi-5.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="raspberry-pi-5">
+<h1>Raspberry Pi 5<a class="headerlink" href="#raspberry-pi-5" title="Link to this heading"></a></h1>
+<p>The Raspberry Pi 5 is the latest iteration of the popular single-board computer, featuring significant performance upgrades and new I/O capabilities.</p>
+<section id="technical-specifications">
+<h2>Technical Specifications<a class="headerlink" href="#technical-specifications" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Feature</p></th>
+<th class="head text-left"><p>Specification</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p><strong>Processor</strong></p></td>
+<td class="text-left"><p>Broadcom BCM2712 2.4GHz quad-core 64-bit Arm Cortex-A76 CPU</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>Memory (RAM)</strong></p></td>
+<td class="text-left"><p>4GB or 8GB LPDDR4X-4267</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>GPU</strong></p></td>
+<td class="text-left"><p>VideoCore VII GPU, supporting OpenGL ES 3.1, Vulkan 1.2</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p><strong>I/O</strong></p></td>
+<td class="text-left"><p>40-pin GPIO, PCIe 2.0 x1 interface (requires adapter), 2 × 4-lane MIPI</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p><strong>Connectivity</strong></p></td>
+<td class="text-left"><p>Dual-band 802.11ac Wi-Fi, Bluetooth 5.0 / BLE, Gigabit Ethernet (PoE+)</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="documentation-resources">
+<h2>Documentation &amp; Resources<a class="headerlink" href="#documentation-resources" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Official Product Page:</strong> <a class="reference external" href="https://www.raspberrypi.com/products/raspberry-pi-5/">Raspberry Pi 5</a></p></li>
+<li><p><strong>Documentation:</strong> <a class="reference external" href="https://www.raspberrypi.com/documentation/computers/raspberry-pi-5.html">Raspberry Pi 5 Documentation</a></p></li>
+</ul>
+</section>
+<section id="images">
+<h2>Images<a class="headerlink" href="#images" title="Link to this heading"></a></h2>
+<p><em>(Add device images here)</em></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="jetson-orin-nx.html" class="btn btn-neutral float-left" title="Jetson Orin NX" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="orbbec-gemini-2l.html" class="btn btn-neutral float-right" title="Orbbec Gemini 2L Camera" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2026, Team V-Insight.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
